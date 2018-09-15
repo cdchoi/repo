@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import ("fmt"
+        "github.com/cdchoi/stringutil"
+)
 
 func main () {
-    fmt.Printf("Hello, workd\n")
+    fmt.Printf(stringutil.Reverse("!oG , olleH"))
 }
